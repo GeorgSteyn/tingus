@@ -1,36 +1,27 @@
-# Dependencies
-*/node_modules
-
 # IDE - VSCode
 .vscode/
 
-# Misc
-frontend/.sass-cache
-frontend/connect.lock
-frontend/coverage
-frontend/libpeerconnection.log
-frontend/npm-debug.log
-frontend/testem.log
-frontend/typings
-frontend/package-lock.json
-frontend/release-builds
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# e2e
-frontend/e2e/*.js
-frontend/e2e/*.map
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
 
-# Python
-*.pyo
-*.pyc
-__pycache__
+# testing
+/coverage
 
-# Project Files
-*TingusData/
-*dist/
-*build_temp/
-*.spec
-apps/Screenshot_Tool/Screenshot_Tool.spec
-backend/build_temp/
-backend/Tingus-Backend.spec
-frontend/private/GH_TOKEN.txt
+# production
+/build
+/dist
 
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

@@ -1,3 +1,0 @@
-pyinstaller==3.3.1
-pyautogui==0.9.38
-lackey==0.7.2
